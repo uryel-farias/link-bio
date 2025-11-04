@@ -1,0 +1,9 @@
+@import url(/styles/banner.css);
+@import url(/styles/estatisticas.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
