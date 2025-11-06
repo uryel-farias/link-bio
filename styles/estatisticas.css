@@ -10,3 +10,98 @@
     flex-direction: column;
 }
 
+.estatisticas {
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.estatisticas h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px #000;
+    margin-bottom: 40px;
+}
+
+
+.linha-cabecalho th {
+    background-color: #0200006e;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+}
+
+tbody tr {
+    position: relative;
+}
+
+tbody tr td{
+    padding: 20px;
+    text-align: center;
+
+}
+
+.brasil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.brasil  img{
+    width: 30px;
+}
+
+.santos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.santos  img{
+    width: 30px;
+}
+
+.barcelona {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.barcelona  img{
+    width: 30px;
+}
+
+.psg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.psg  img{
+    width: 30px;
+}
+
+.al {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.al  img{
+    width: 30px;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #ffffffcc;
+}
+
+tr:nth-of-type(even) {
+    background-color: #0200006e;
+    color: #fff;
+}
+
+
