@@ -2,7 +2,7 @@
 > Projeto de prática em CSS — Pseudo-classes e pseudo-elementos  
 
 ## 🌍 Acesso ao projeto online  
-🔗 [Clique aqui para acessar o projeto]()  
+🔗 [Clique aqui para acessar o projeto](https://link-bio-beta-olive.vercel.app/)  
 
 ## 📘 Sobre  
 Este projeto é uma página simples de “link-bio” (link na bio) desenvolvida como exercício de CSS, focando no uso de **pseudo-classes** (`:hover`) e **pseudo-elementos** (`::before`, `::after`).  
