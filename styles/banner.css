@@ -49,13 +49,13 @@
   content: "";
   position: absolute;
   inset: 0;
-  padding: 8px; /* espessura da borda */
+  padding: 7px; /* espessura da borda */
   border-radius: 50%;
-  background: conic-gradient(from 0deg, #a4ef01, #00cd66, #00ff00);
+  background: conic-gradient(from 0deg, #369a00, #00ff00 90%, #009c3b );
   -webkit-mask: 
-    radial-gradient(farthest-side, transparent calc(100% - 8px), white calc(100% - 8px));
+    radial-gradient(farthest-side, transparent calc(100% - 7px), white calc(100% - 7px));
   mask: 
-    radial-gradient(farthest-side, transparent calc(100% - 8px), white calc(100% - 8px));
+    radial-gradient(farthest-side, transparent calc(100% - 7px), white calc(100% - 7px));
   z-index: 1;
 }
 
@@ -63,7 +63,27 @@
     text-align: center;
     color: #fff;
     text-shadow: 3px 3px #000;
+    position: relative;
+}
 
+.banner-info h1::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-image: url(/images/assets/verificado.png);
+    background-size: cover;
+    top: 20px;
+}
+
+.banner-info h1::before {
+    content: "";
+    position: absolute;
+    border-radius: 5px;
+    width: 38px;
+    height: 4px;
+    top: 38px;
+    background:linear-gradient(90deg, #ffdf00 0%, #009c3b 100%);
 }
 
 .banner-links {
@@ -75,6 +95,7 @@
     gap: 20px;
     
 }
+
 
 .logo-link {
     color: #fff;
@@ -88,6 +109,17 @@
     padding: 8px 0;
 }
 
+.logo-link:hover {
+    background-color: #fff;
+}
+
+.logo-link:hover a {
+    color: #000;
+}
+
+
+
+
 .logo-link img {
     width: 24px;
     display: flex;
@@ -99,8 +131,10 @@
 .banner-links a {
     color: #fff;
     font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: bold;
     text-align: center;
     text-decoration: none;
+    display: block;
 }
 
 .link {  
